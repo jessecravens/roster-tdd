@@ -8,6 +8,7 @@ var Router = Ember.Router.extend({
 Router.map(function() {
   this.route('error', {path: '/*wildcard'});
   this.route('settings');
+  this.route('profile');
 });
 
 export default Router;
